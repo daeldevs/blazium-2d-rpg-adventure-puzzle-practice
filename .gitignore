@@ -1,0 +1,17 @@
+# Godot / Blazium
+.import/
+.export/
+.export_presets.cfg
+
+# Mono / C#
+.mono/
+data_*/
+
+# Editor configs
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
