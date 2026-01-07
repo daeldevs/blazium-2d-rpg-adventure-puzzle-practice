@@ -1,8 +1,8 @@
 c2f5f26e64558b209b48421befaf649e
-::res://::1767430645
+::res://::1767793774
 icon.svg::CompressedTexture2D/CompressedTexture2D::5011013084713694856::1767362605::1767362613::1::::<><><>0<>0<>e65702a0a4f34eef524637e61883523f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://GameScene/::1767430606
-game_scene.tscn::PackedScene::1672831000990661460::1767430606::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://dnv4mf0o34qfl::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png<>uid://coip2gyf6bqmc::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetNature.png
+::res://GameScene/::1767432473
+game_scene.tscn::PackedScene/PackedScene::1672831000990661460::1767432473::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://dnv4mf0o34qfl::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png<>uid://coip2gyf6bqmc::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetNature.png
 ::res://Ninja Adventure - Asset Pack/::1767362921
 Example 5 ( Old Version).png::CompressedTexture2D/CompressedTexture2D::902525732240682480::1767362807::1767362921::1::::<><><>0<>0<>5d346cd0d73a76f296b9d12921311111<>res://.godot/imported/Example 5 ( Old Version).png-b37b7a3edf56225849e3f72a9f8ed1b1.ctex::
 LICENSE.txt::TextFile/TextFile::-1::1767362807::0::1::::<><><>0<>0<><>::
@@ -2057,6 +2057,6 @@ nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::241152683849627033
 ::res://Ninja Adventure - Asset Pack/Ui/Theme/Wip/ThemeWood4/::1767362921
 nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::9047837034603666309::1767362807::1767362921::1::::<><><>0<>0<>ef1d01259b48d6fbbde8ae2d34924d10<>res://.godot/imported/nine_path_panel.png-e6efca0f39f74d6975e80ba22193bab7.ctex::
 ::res://Scenes/::1767363759
-::res://Scenes/Player/::1767430606
+::res://Scenes/Player/::1767432473
 player.gd::GDScript/GDScript::2638159904461832974::1767429314::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::1255094510865541077::1767430606::0::1::::<><><>0<>0<><>::uid://bdt7dxcfrr28i::::res://Scenes/Player/player.gd<>uid://i0ef0ircayjy::::res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim/Walk.png
+player.tscn::PackedScene/PackedScene::1255094510865541077::1767432473::0::1::::<><><>0<>0<><>::uid://bdt7dxcfrr28i::::res://Scenes/Player/player.gd<>uid://i0ef0ircayjy::::res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim/Walk.png
