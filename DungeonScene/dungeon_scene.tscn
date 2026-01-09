@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://lrejilitrfy8"]
+
+[ext_resource type="PackedScene" uid="uid://r48hubsch61n" path="res://Scenes/Player/player.tscn" id="1_2vlm6"]
+[ext_resource type="PackedScene" uid="uid://trxemtqiqno8" path="res://SceneEntrance/scene_entrance.tscn" id="2_0sbnr"]
+
+[node name="DungeonScene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_2vlm6")]
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(5, 5)
+
+[node name="SceneEntrance" parent="." instance=ExtResource("2_0sbnr")]
+position = Vector2(-93, 45)
+next_scene = "res://GameScene/game_scene.tscn"
