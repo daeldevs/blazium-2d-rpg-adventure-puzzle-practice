@@ -14,6 +14,10 @@ config/name="ninja_adventure_gamedevtv_tutorial"
 config/features=PackedStringArray("4.3.2", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+SceneManager="*res://SceneManager/scene_manager.tscn"
+
 [file_customization]
 
 folder_colors={

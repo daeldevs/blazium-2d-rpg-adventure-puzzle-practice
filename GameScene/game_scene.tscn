@@ -792,7 +792,7 @@ tile_map_data = PackedByteArray("AAADAP3/AAACAAAAAAD6/wIAAAACAAAAAAD4//3/AAACAAA
 tile_set = SubResource("TileSet_wo00q")
 
 [node name="Player" parent="ObstacleLayer" instance=ExtResource("1_onf2v")]
-position = Vector2(-4, 3)
+position = Vector2(-5, 3)
 
 [node name="Camera2D" type="Camera2D" parent="ObstacleLayer/Player"]
 zoom = Vector2(5, 5)
