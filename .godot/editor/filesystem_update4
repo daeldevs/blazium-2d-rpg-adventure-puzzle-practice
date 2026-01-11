@@ -1,6 +1,7 @@
-res://DungeonScene/dungeon_scene.tscn
-res://Scenes/Player/player.tscn
 res://GameScene/game_scene.tscn
+res://DungeonScene/dungeon_scene.tscn
+res://Scenes/Player/player.gd
+res://Scenes/Player/player.tscn
 res://SceneEntrance/scene_entrance.tscn
 res://SceneManager/scene_manager.tscn
-res://SceneEntrance/scene_entrance.gd
+res://Block/block.tscn
