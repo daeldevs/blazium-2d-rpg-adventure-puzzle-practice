@@ -6,3 +6,6 @@ res://DungeonScene/dungeon_scene.tscn
 res://SceneEntrance/scene_entrance.tscn
 res://SceneManager/scene_manager.tscn
 res://Block/block.tscn
+res://LockedDoor/locked_door.tscn
+res://LockedDoor/locked_door.gd
+res://Scenes/Player/player.gd
