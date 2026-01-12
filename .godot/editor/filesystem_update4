@@ -1,7 +1,8 @@
+res://PuzzleButton/puzzle_button.tscn
+res://PuzzleButton/puzzle_button.gd
 res://GameScene/game_scene.tscn
-res://DungeonScene/dungeon_scene.tscn
-res://Scenes/Player/player.gd
 res://Scenes/Player/player.tscn
+res://DungeonScene/dungeon_scene.tscn
 res://SceneEntrance/scene_entrance.tscn
 res://SceneManager/scene_manager.tscn
 res://Block/block.tscn

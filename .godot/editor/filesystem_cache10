@@ -1,12 +1,12 @@
 c2f5f26e64558b209b48421befaf649e
-::res://::1768077825
+::res://::1768247739
 icon.svg::CompressedTexture2D/CompressedTexture2D::5011013084713694856::1767362605::1767362613::1::::<><><>0<>0<>e65702a0a4f34eef524637e61883523f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Block/::1768038919
-block.tscn::PackedScene/PackedScene::7502036016832373632::1768038919::0::1::::<><><>0<>0<><>::uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
-::res://DungeonScene/::1768038919
-dungeon_scene.tscn::PackedScene/PackedScene::807431079522780637::1768038919::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://bxf1skyn4hrre::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetWallSimple.png<>uid://bp0h0wgsf2rrw::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetInteriorFloor.png
-::res://GameScene/::1768039520
-game_scene.tscn::PackedScene/PackedScene::1672831000990661460::1768039520::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://dnv4mf0o34qfl::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png<>uid://coip2gyf6bqmc::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetNature.png<>uid://ca2tc85act1f2::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://de5bo4lgv1kyi::::res://Block/block.tscn
+::res://Block/::1768223824
+block.tscn::PackedScene::7502036016832373632::1768223824::0::1::::<><><>0<>0<><>::uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
+::res://DungeonScene/::1768223823
+dungeon_scene.tscn::PackedScene::807431079522780637::1768223823::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://bxf1skyn4hrre::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetWallSimple.png<>uid://bp0h0wgsf2rrw::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetInteriorFloor.png
+::res://GameScene/::1768223823
+game_scene.tscn::PackedScene::1672831000990661460::1768223823::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://dnv4mf0o34qfl::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png<>uid://coip2gyf6bqmc::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetNature.png<>uid://ca2tc85act1f2::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://de5bo4lgv1kyi::::res://Block/block.tscn
 ::res://Ninja Adventure - Asset Pack/::1767362921
 Example 5 ( Old Version).png::CompressedTexture2D/CompressedTexture2D::902525732240682480::1767362807::1767362921::1::::<><><>0<>0<>5d346cd0d73a76f296b9d12921311111<>res://.godot/imported/Example 5 ( Old Version).png-b37b7a3edf56225849e3f72a9f8ed1b1.ctex::
 LICENSE.txt::TextFile/TextFile::-1::1767362807::0::1::::<><><>0<>0<><>::
@@ -2060,13 +2060,13 @@ nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::383442958618030641
 nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::2411526838496270338::1767362807::1767362921::1::::<><><>0<>0<>de50b6ff8fe0e87443ef21007f9165b6<>res://.godot/imported/nine_path_panel.png-590de20d8676ecb8d37c0170678a1e67.ctex::
 ::res://Ninja Adventure - Asset Pack/Ui/Theme/Wip/ThemeWood4/::1767362921
 nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::9047837034603666309::1767362807::1767362921::1::::<><><>0<>0<>ef1d01259b48d6fbbde8ae2d34924d10<>res://.godot/imported/nine_path_panel.png-e6efca0f39f74d6975e80ba22193bab7.ctex::
-::res://SceneEntrance/::1768038919
+::res://SceneEntrance/::1768223824
 scene_entrance.gd::GDScript/GDScript::4022959449180879501::1768022211::0::1::::<>Area2D<><>0<>0<><>::
-scene_entrance.tscn::PackedScene/PackedScene::1370086745320667249::1768038919::0::1::::<><><>0<>0<><>::uid://bxk0s332u45w8::::res://SceneEntrance/scene_entrance.gd
-::res://SceneManager/::1768038919
+scene_entrance.tscn::PackedScene::1370086745320667249::1768223824::0::1::::<><><>0<>0<><>::uid://bxk0s332u45w8::::res://SceneEntrance/scene_entrance.gd
+::res://SceneManager/::1768223824
 scene_manager.gd::GDScript/GDScript::3907166210745310876::1768009996::0::1::::<>Node2D<><>0<>0<><>::
-scene_manager.tscn::PackedScene/PackedScene::7315562479026258455::1768038919::0::1::::<><><>0<>0<><>::uid://bvwwpr5bve8h1::::res://SceneManager/scene_manager.gd
+scene_manager.tscn::PackedScene::7315562479026258455::1768223824::0::1::::<><><>0<>0<><>::uid://bvwwpr5bve8h1::::res://SceneManager/scene_manager.gd
 ::res://Scenes/::1767363759
-::res://Scenes/Player/::1768038919
-player.gd::GDScript/GDScript::2638159904461832974::1768038862::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene/PackedScene::1255094510865541077::1768038919::0::1::::<><><>0<>0<><>::uid://bdt7dxcfrr28i::::res://Scenes/Player/player.gd<>uid://i0ef0ircayjy::::res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim/Walk.png
+::res://Scenes/Player/::1768223823
+player.gd::GDScript::2638159904461832974::1768223822::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::1255094510865541077::1768223823::0::1::::<><><>0<>0<><>::uid://bdt7dxcfrr28i::::res://Scenes/Player/player.gd<>uid://i0ef0ircayjy::::res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim/Walk.png
