@@ -6,8 +6,9 @@ class_name Player
 @export var push_strength: float = 100
 
 # Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	position = SceneManager.player_spawn_position
+func _ready():
+	if SceneManager.player_spawn_position != Vector2(0,0):
+		position = SceneManager.player_spawn_position
 	
 	
 
