@@ -16,6 +16,12 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta: float) -> void:
+	move_player()
+	push_blocks()
+	
+	move_and_slide()
+
+func move_player():
 	var move_vector: Vector2 = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	
 	velocity = move_vector * move_speed 
@@ -37,9 +43,8 @@ func _physics_process(delta: float) -> void:
 		#print("the player isn't moving.")
 		$AnimatedSprite2D.stop()
 		
-	#get the last collision
-	#check if it's a block
-	#if it is a block, push it
+
+func push_blocks():
 	var collision: KinematicCollision2D = get_last_slide_collision()
 	if collision:
 		var collider_node = collision.get_collider()
@@ -48,6 +53,4 @@ func _physics_process(delta: float) -> void:
 			collider_node.apply_central_force(-collision_normal * push_strength)
 		if collider_node.is_in_group("wall"):
 			print ("I'm touching a wall!")
-			
-	move_and_slide()
 	
