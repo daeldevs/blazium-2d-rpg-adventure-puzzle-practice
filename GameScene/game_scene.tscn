@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=4 uid="uid://x3ljug53jd5e"]
+[gd_scene load_steps=16 format=4 uid="uid://x3ljug53jd5e"]
 
 [ext_resource type="PackedScene" uid="uid://r48hubsch61n" path="res://Scenes/Player/player.tscn" id="1_onf2v"]
 [ext_resource type="Texture2D" uid="uid://dnv4mf0o34qfl" path="res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png" id="1_xougl"]
@@ -778,6 +778,12 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_e2ns8")
 sources/1 = SubResource("TileSetAtlasSource_5b1ro")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oat8o"]
+size = Vector2(20, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kd12v"]
+size = Vector2(27, 15)
+
 [node name="GameScene" type="Node2D"]
 
 [node name="GrassLayer" type="TileMapLayer" parent="."]
@@ -812,6 +818,27 @@ position = Vector2(91, -13)
 [node name="Block" parent="." instance=ExtResource("6_5b1ro")]
 position = Vector2(133, 17)
 linear_damp = 15.0
+
+[node name="PuzzleWalls" type="StaticBody2D" parent="."]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PuzzleWalls"]
+position = Vector2(112, 29)
+rotation = 0.0134862
+shape = SubResource("RectangleShape2D_oat8o")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="PuzzleWalls"]
+position = Vector2(154, 29)
+shape = SubResource("RectangleShape2D_oat8o")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="PuzzleWalls"]
+position = Vector2(134, -5)
+shape = SubResource("RectangleShape2D_kd12v")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="PuzzleWalls"]
+position = Vector2(134, 63)
+shape = SubResource("RectangleShape2D_kd12v")
 
 [connection signal="pressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_pressed"]
 [connection signal="unpressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_unpressed"]

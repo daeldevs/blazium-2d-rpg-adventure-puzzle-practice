@@ -1,9 +1,10 @@
 res://Scenes/Player/player.tscn
-res://GameScene/game_scene.tscn
-res://DungeonScene/dungeon_scene.tscn
-res://SceneEntrance/scene_entrance.tscn
 res://Block/block.tscn
-res://Block/ice_block.tscn
-res://PuzzleButton/singleuse_puzzle_button.tscn
-res://PuzzleButton/puzzle_button.gd
+res://SceneEntrance/scene_entrance.tscn
 res://LockedDoor/locked_door.gd
+res://PuzzleButton/puzzle_button.gd
+res://Scenes/Player/player.gd
+res://GameScene/game_scene.tscn
+res://PuzzleButton/puzzle_button.tscn
+res://DungeonScene/dungeon_scene.tscn
+res://LockedDoor/locked_door.tscn

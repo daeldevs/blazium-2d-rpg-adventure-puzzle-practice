@@ -7,8 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://dpgajsegrwr3w" path="res://PuzzleButton/puzzle_button.tscn" id="5_5uxo0"]
 [ext_resource type="PackedScene" uid="uid://kdtblr151pfj" path="res://LockedDoor/locked_door.tscn" id="6_qd4uy"]
 [ext_resource type="PackedScene" uid="uid://de5bo4lgv1kyi" path="res://Block/block.tscn" id="7_qd4uy"]
-[ext_resource type="PackedScene" uid="uid://bht7gb77cwpuh" path="res://Block/ice_block.tscn" id="8_d22ra"]
-[ext_resource type="PackedScene" uid="uid://bkdg2t7bthhmu" path="res://PuzzleButton/singleuse_puzzle_button.tscn" id="9_cqdvo"]
+[ext_resource type="PackedScene" path="res://Block/ice_block.tscn" id="8_d22ra"]
+[ext_resource type="PackedScene" path="res://PuzzleButton/singleuse_puzzle_button.tscn" id="9_cqdvo"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3485o"]
 texture = ExtResource("3_0sbnr")
@@ -887,7 +887,7 @@ position = Vector2(167, -88)
 [node name="LockedDoor3" parent="." instance=ExtResource("6_qd4uy")]
 position = Vector2(63, -29)
 
-[node name="PuzzleButton4" parent="." instance=ExtResource("9_cqdvo")]
+[node name="SingleUsePuzzleButton4" parent="." instance=ExtResource("9_cqdvo")]
 position = Vector2(-169, -180)
 
 [connection signal="pressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_pressed"]
@@ -896,4 +896,4 @@ position = Vector2(-169, -180)
 [connection signal="unpressed" from="PuzzleButton2" to="LockedDoor" method="_on_puzzle_button_unpressed"]
 [connection signal="pressed" from="PuzzleButton3" to="LockedDoor2" method="_on_puzzle_button_pressed"]
 [connection signal="unpressed" from="PuzzleButton3" to="LockedDoor2" method="_on_puzzle_button_unpressed"]
-[connection signal="pressed" from="PuzzleButton4" to="LockedDoor3" method="_on_puzzle_button_pressed"]
+[connection signal="pressed" from="SingleUsePuzzleButton4" to="LockedDoor3" method="_on_puzzle_button_pressed"]
