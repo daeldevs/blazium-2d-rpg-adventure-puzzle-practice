@@ -37,7 +37,7 @@ offset_bottom = 474.0
 scale = Vector2(3.7, 3.7)
 texture = ExtResource("3_3etx6")
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/TextureRect"]
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/TextureRect" groups=["interactable"]]
 layout_mode = 0
 offset_left = 6.2162
 offset_top = 14.8649

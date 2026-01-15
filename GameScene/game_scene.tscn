@@ -811,7 +811,7 @@ push_strength = 150.0
 [node name="Camera2D" type="Camera2D" parent="ObstacleLayer/Player"]
 zoom = Vector2(5, 5)
 
-[node name="NPC" parent="ObstacleLayer" instance=ExtResource("9_kd12v")]
+[node name="NPC" parent="ObstacleLayer" groups=["interactable"] instance=ExtResource("9_kd12v")]
 position = Vector2(-28, -33)
 
 [node name="LockedDoor" parent="." instance=ExtResource("6_oat8o")]

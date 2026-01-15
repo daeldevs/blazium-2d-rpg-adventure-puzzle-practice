@@ -33,6 +33,7 @@ folder_colors={
 
 wall="a wall tilemaplayer"
 pushable="objects that could be pushed"
+interactable="objects that are interactable like npc"
 
 [input]
 

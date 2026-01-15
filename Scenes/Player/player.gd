@@ -28,16 +28,22 @@ func move_player():
 	if velocity.x > 0:
 		#print("the player is moving right")
 		$AnimatedSprite2D.play("move_right")
+		$Area2D.position = Vector2(5,-2)
+		
 		
 	elif velocity.x < 0:
 		#print ("the player is moving left")
 		$AnimatedSprite2D.play("move_left")
+		$Area2D.position = Vector2(-5,2)
 	elif velocity.y > 0:
 		#print ("the player is moving down")
 		$AnimatedSprite2D.play("move_down")
+		$Area2D.position = Vector2(0,8)
+		
 	elif velocity.y < 0:
 		#print ("the player is moving up")
 		$AnimatedSprite2D.play("move_up")
+		$Area2D.position = Vector2(0,-4)
 	
 	else:
 		#print("the player isn't moving.")
@@ -54,3 +60,13 @@ func push_blocks():
 		if collider_node.is_in_group("wall"):
 			print ("I'm touching a wall!")
 	
+
+
+func _on_area_2d_body_entered(body):
+	if body.is_in_group("interactable"):
+		body.can_interact = true
+
+
+func _on_area_2d_body_exited(body):
+	if body.is_in_group("interactable"):
+		body.can_interact = false

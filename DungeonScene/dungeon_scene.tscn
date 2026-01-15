@@ -857,6 +857,12 @@ position = Vector2(-202, -73)
 [node name="PuzzleButton2" parent="." instance=ExtResource("5_5uxo0")]
 position = Vector2(-134, -74)
 
+[node name="PuzzleButton3" parent="." instance=ExtResource("5_5uxo0")]
+position = Vector2(263, -33)
+
+[node name="SingleUsePuzzleButton4" parent="." instance=ExtResource("9_cqdvo")]
+position = Vector2(-169, -180)
+
 [node name="LockedDoor" parent="." instance=ExtResource("6_qd4uy")]
 position = Vector2(-169, -123)
 buttons_needed = 2
@@ -878,17 +884,11 @@ linear_damp = 10.0
 [node name="Block3" parent="." instance=ExtResource("8_d22ra")]
 position = Vector2(188, -52)
 
-[node name="PuzzleButton3" parent="." instance=ExtResource("5_5uxo0")]
-position = Vector2(263, -49)
-
 [node name="LockedDoor2" parent="." instance=ExtResource("6_qd4uy")]
 position = Vector2(167, -88)
 
 [node name="LockedDoor3" parent="." instance=ExtResource("6_qd4uy")]
 position = Vector2(63, -29)
-
-[node name="SingleUsePuzzleButton4" parent="." instance=ExtResource("9_cqdvo")]
-position = Vector2(-169, -180)
 
 [connection signal="pressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_pressed"]
 [connection signal="unpressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_unpressed"]
