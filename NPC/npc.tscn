@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://bv3nwqs4cwbu4"]
+[gd_scene load_steps=8 format=3 uid="uid://bv3nwqs4cwbu4"]
 
 [ext_resource type="Script" uid="uid://b85o8a16ps1pc" path="res://NPC/npc.gd" id="1_056qb"]
 [ext_resource type="Texture2D" uid="uid://wmyputbjl53k" path="res://Ninja Adventure - Asset Pack/Actor/Characters/NinjaBlue2/SpriteSheet.png" id="1_asys0"]
+[ext_resource type="Texture2D" uid="uid://de4tm86xwjp4e" path="res://Ninja Adventure - Asset Pack/Ui/Dialog/DialogBoxFaceset.png" id="3_3etx6"]
+[ext_resource type="Texture2D" uid="uid://btf45uug1kxyk" path="res://Ninja Adventure - Asset Pack/Actor/Characters/NinjaBlue2/Faceset.png" id="4_k1h6f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_056qb"]
 atlas = ExtResource("1_asys0")
@@ -9,6 +11,10 @@ region = Rect2(0, 0, 16.1758, 17.1699)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3etx6"]
 size = Vector2(12, 13)
+
+[sub_resource type="LabelSettings" id="LabelSettings_3etx6"]
+font_size = 48
+font_color = Color(0, 0, 0, 1)
 
 [node name="NPC" type="StaticBody2D"]
 script = ExtResource("1_056qb")
@@ -19,3 +25,30 @@ texture = SubResource("AtlasTexture_056qb")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_3etx6")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+offset_left = 24.0001
+offset_top = 416.0
+offset_right = 324.0
+offset_bottom = 474.0
+scale = Vector2(3.7, 3.7)
+texture = ExtResource("3_3etx6")
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/TextureRect"]
+layout_mode = 0
+offset_left = 6.2162
+offset_top = 14.8649
+offset_right = 46.2162
+offset_bottom = 54.8649
+texture = ExtResource("4_k1h6f")
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 226.0
+offset_top = 487.0
+offset_right = 517.0
+offset_bottom = 554.0
+text = "Hello world !"
+label_settings = SubResource("LabelSettings_3etx6")
