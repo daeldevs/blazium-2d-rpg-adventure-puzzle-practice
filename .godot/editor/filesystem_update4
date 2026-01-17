@@ -6,5 +6,3 @@ res://Block/block.tscn
 res://Block/ice_block.tscn
 res://PuzzleButton/singleuse_puzzle_button.tscn
 res://NPC/npc.tscn
-res://Scenes/Player/player.gd
-res://NPC/npc.gd

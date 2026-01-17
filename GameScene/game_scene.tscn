@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=4 uid="uid://x3ljug53jd5e"]
+[gd_scene load_steps=20 format=4 uid="uid://x3ljug53jd5e"]
 
 [ext_resource type="PackedScene" uid="uid://r48hubsch61n" path="res://Scenes/Player/player.tscn" id="1_onf2v"]
 [ext_resource type="Texture2D" uid="uid://dnv4mf0o34qfl" path="res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png" id="1_xougl"]
@@ -7,7 +7,9 @@
 [ext_resource type="PackedScene" uid="uid://trxemtqiqno8" path="res://SceneEntrance/scene_entrance.tscn" id="5_wo00q"]
 [ext_resource type="PackedScene" uid="uid://de5bo4lgv1kyi" path="res://Block/block.tscn" id="6_5b1ro"]
 [ext_resource type="PackedScene" uid="uid://kdtblr151pfj" path="res://LockedDoor/locked_door.tscn" id="6_oat8o"]
+[ext_resource type="Texture2D" uid="uid://bjfqud3a6phi6" path="res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/SpriteSheet.png" id="7_bc4rt"]
 [ext_resource type="PackedScene" uid="uid://dpgajsegrwr3w" path="res://PuzzleButton/puzzle_button.tscn" id="7_ecvex"]
+[ext_resource type="Texture2D" uid="uid://bjx7dn402em8w" path="res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/Faceset.png" id="8_isyfi"]
 [ext_resource type="PackedScene" uid="uid://bv3nwqs4cwbu4" path="res://NPC/npc.tscn" id="9_kd12v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ynty"]
@@ -779,6 +781,10 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_e2ns8")
 sources/1 = SubResource("TileSetAtlasSource_5b1ro")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_d2ra5"]
+atlas = ExtResource("7_bc4rt")
+region = Rect2(0, 0, 16.1758, 17.1699)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oat8o"]
 size = Vector2(20, 48)
 
@@ -814,6 +820,21 @@ zoom = Vector2(5, 5)
 [node name="NPC" parent="ObstacleLayer" groups=["interactable"] instance=ExtResource("9_kd12v")]
 position = Vector2(-28, -33)
 
+[node name="NPC2" parent="ObstacleLayer" groups=["interactable"] instance=ExtResource("9_kd12v")]
+position = Vector2(31, -24)
+
+[node name="Sprite2D" parent="ObstacleLayer/NPC2" index="0"]
+texture = SubResource("AtlasTexture_d2ra5")
+
+[node name="NPCIcon" parent="ObstacleLayer/NPC2/CanvasLayer/DialogueBoxTexture" index="0"]
+texture = ExtResource("8_isyfi")
+
+[node name="DialogueLabel" parent="ObstacleLayer/NPC2/CanvasLayer" index="1"]
+text = "Watch out for the cave...there's something."
+
+[node name="NameLabel" parent="ObstacleLayer/NPC2/CanvasLayer" index="2"]
+text = "Caveman"
+
 [node name="LockedDoor" parent="." instance=ExtResource("6_oat8o")]
 position = Vector2(91, -13)
 
@@ -846,3 +867,5 @@ shape = SubResource("RectangleShape2D_kd12v")
 
 [connection signal="pressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_pressed"]
 [connection signal="unpressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_unpressed"]
+
+[editable path="ObstacleLayer/NPC2"]

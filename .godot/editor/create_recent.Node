@@ -1,7 +1,7 @@
+Label
 CollisionShape2D
 Area2D
 TextureRect
-Label
 CanvasLayer
 Sprite2D
 StaticBody2D
