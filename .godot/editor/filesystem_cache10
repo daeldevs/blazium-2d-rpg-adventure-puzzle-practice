@@ -1,24 +1,24 @@
 c2f5f26e64558b209b48421befaf649e
-::res://::1768703456
+::res://::1768744855
 icon.svg::CompressedTexture2D/CompressedTexture2D::5011013084713694856::1768703339::1768703339::1::::<><><>0<>0<>e65702a0a4f34eef524637e61883523f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Block/::1768703338
-block.tscn::PackedScene::7502036016832373632::1768703338::0::1::::<><><>0<>0<><>::uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
-ice_block.tscn::PackedScene::2918919528433000123::1768703338::0::1::::<><><>0<>0<><>::uid://de5bo4lgv1kyi::::res://Block/block.tscn<>uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
-::res://DungeonScene/::1768703338
-dungeon_scene.tscn::PackedScene::807431079522780637::1768703338::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://bxf1skyn4hrre::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetWallSimple.png<>uid://bp0h0wgsf2rrw::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetInteriorFloor.png<>uid://dpgajsegrwr3w::::res://PuzzleButton/puzzle_button.tscn<>uid://kdtblr151pfj::::res://LockedDoor/locked_door.tscn<>uid://de5bo4lgv1kyi::::res://Block/block.tscn<>uid://bht7gb77cwpuh::::res://Block/ice_block.tscn<>uid://bkdg2t7bthhmu::::res://PuzzleButton/singleuse_puzzle_button.tscn
-::res://GameScene/::1768703338
-game_scene.tscn::PackedScene::1672831000990661460::1768703338::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://dnv4mf0o34qfl::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png<>uid://coip2gyf6bqmc::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetNature.png<>uid://ca2tc85act1f2::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://de5bo4lgv1kyi::::res://Block/block.tscn<>uid://kdtblr151pfj::::res://LockedDoor/locked_door.tscn<>uid://bjfqud3a6phi6::::res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/SpriteSheet.png<>uid://dpgajsegrwr3w::::res://PuzzleButton/puzzle_button.tscn<>uid://bjx7dn402em8w::::res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/Faceset.png<>uid://bv3nwqs4cwbu4::::res://NPC/npc.tscn
+::res://Block/::1768717435
+block.tscn::PackedScene::7502036016832373632::1768717435::0::1::::<><><>0<>0<><>::uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
+ice_block.tscn::PackedScene::2918919528433000123::1768717435::0::1::::<><><>0<>0<><>::uid://de5bo4lgv1kyi::::res://Block/block.tscn<>uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
+::res://DungeonScene/::1768717435
+dungeon_scene.tscn::PackedScene::807431079522780637::1768717435::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://bxf1skyn4hrre::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetWallSimple.png<>uid://bp0h0wgsf2rrw::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetInteriorFloor.png<>uid://dpgajsegrwr3w::::res://PuzzleButton/puzzle_button.tscn<>uid://kdtblr151pfj::::res://LockedDoor/locked_door.tscn<>uid://de5bo4lgv1kyi::::res://Block/block.tscn<>uid://bht7gb77cwpuh::::res://Block/ice_block.tscn<>uid://bkdg2t7bthhmu::::res://PuzzleButton/singleuse_puzzle_button.tscn
+::res://GameScene/::1768718037
+game_scene.tscn::PackedScene::1672831000990661460::1768718037::0::1::::<><><>0<>0<><>::uid://r48hubsch61n::::res://Scenes/Player/player.tscn<>uid://dnv4mf0o34qfl::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png<>uid://coip2gyf6bqmc::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetNature.png<>uid://ca2tc85act1f2::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png<>uid://trxemtqiqno8::::res://SceneEntrance/scene_entrance.tscn<>uid://de5bo4lgv1kyi::::res://Block/block.tscn<>uid://kdtblr151pfj::::res://LockedDoor/locked_door.tscn<>uid://bjfqud3a6phi6::::res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/SpriteSheet.png<>uid://dpgajsegrwr3w::::res://PuzzleButton/puzzle_button.tscn<>uid://bjx7dn402em8w::::res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/Faceset.png<>uid://bv3nwqs4cwbu4::::res://NPC/npc.tscn
 ::res://LockedDoor/::1768703338
-locked_door.gd::GDScript::1323509494861326980::1768703338::0::1::::<>StaticBody2D<><>0<>0<><>::
-locked_door.tscn::PackedScene::709237583539948063::1768703338::0::1::::<><><>0<>0<><>::uid://ca2tc85act1f2::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png<>uid://s4eaji7lspai::::res://LockedDoor/locked_door.gd
+locked_door.gd::GDScript/GDScript::1323509494861326980::1768703338::0::1::::<>StaticBody2D<><>0<>0<><>::
+locked_door.tscn::PackedScene/PackedScene::709237583539948063::1768703338::0::1::::<><><>0<>0<><>::uid://ca2tc85act1f2::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png<>uid://s4eaji7lspai::::res://LockedDoor/locked_door.gd
 ::res://Ninja Adventure - Asset Pack/::1768703339
 Example 5 ( Old Version).png::CompressedTexture2D/CompressedTexture2D::902525732240682480::1768703338::1768703338::1::::<><><>0<>0<>5d346cd0d73a76f296b9d12921311111<>res://.godot/imported/Example 5 ( Old Version).png-b37b7a3edf56225849e3f72a9f8ed1b1.ctex::
-LICENSE.txt::TextFile::-1::1768703338::0::1::::<><><>0<>0<><>::
+LICENSE.txt::TextFile/TextFile::-1::1768703338::0::1::::<><><>0<>0<><>::
 MusicCover.png::CompressedTexture2D/CompressedTexture2D::4173952730762048135::1768703338::1768703338::1::::<><><>0<>0<>db0cd5f01c8d863d2061f5ada4ec5a79<>res://.godot/imported/MusicCover.png-9ccc19ed3b9ab15e62ced7a1dfd7e48c.ctex::
 Palette.png::CompressedTexture2D/CompressedTexture2D::6896898731788720799::1768703339::1768703339::1::::<><><>0<>0<>0d1794699ed33cbcf9145bbaa32ccab6<>res://.godot/imported/Palette.png-a90a46a05a3d28cc7ca04f85c4e19734.ctex::
 preview-part-1.png::CompressedTexture2D/CompressedTexture2D::3698636021198294996::1768703339::1768703339::1::::<><><>0<>0<>91865bbc6bf52337eb655135155a42e2<>res://.godot/imported/preview-part-1.png-8fb180dbb82508d5d95db188810f6718.ctex::
 preview-part-2.png::CompressedTexture2D/CompressedTexture2D::2695680838953107528::1768703339::1768703339::1::::<><><>0<>0<>d35b256af24cb175b26e33d74c406a1c<>res://.godot/imported/preview-part-2.png-7b6e9d246199aec1cf4baa86b256ff0e.ctex::
-README.md::TextFile::-1::1768703339::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1768703339::0::1::::<><><>0<>0<><>::
 ::res://Ninja Adventure - Asset Pack/Actor/::1768703338
 ::res://Ninja Adventure - Asset Pack/Actor/Animals/::1768703338
 ::res://Ninja Adventure - Asset Pack/Actor/Animals/Cat/::1768703338
@@ -2064,20 +2064,20 @@ nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::383442958618030641
 nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::2411526838496270338::1768703339::1768703339::1::::<><><>0<>0<>de50b6ff8fe0e87443ef21007f9165b6<>res://.godot/imported/nine_path_panel.png-590de20d8676ecb8d37c0170678a1e67.ctex::
 ::res://Ninja Adventure - Asset Pack/Ui/Theme/Wip/ThemeWood4/::1768703339
 nine_path_panel.png::CompressedTexture2D/CompressedTexture2D::9047837034603666309::1768703339::1768703339::1::::<><><>0<>0<>ef1d01259b48d6fbbde8ae2d34924d10<>res://.godot/imported/nine_path_panel.png-e6efca0f39f74d6975e80ba22193bab7.ctex::
-::res://NPC/::1768703338
-npc.gd::GDScript::4765492867061751112::1768703338::0::1::::<>StaticBody2D<><>0<>0<><>::
-npc.tscn::PackedScene::3919018455078574905::1768703338::0::1::::<><><>0<>0<><>::uid://b85o8a16ps1pc::::res://NPC/npc.gd<>uid://wmyputbjl53k::::res://Ninja Adventure - Asset Pack/Actor/Characters/NinjaBlue2/SpriteSheet.png<>uid://de4tm86xwjp4e::::res://Ninja Adventure - Asset Pack/Ui/Dialog/DialogBoxFaceset.png<>uid://btf45uug1kxyk::::res://Ninja Adventure - Asset Pack/Actor/Characters/NinjaBlue2/Faceset.png
-::res://PuzzleButton/::1768703339
-puzzle_button.gd::GDScript::6358507228363274460::1768703339::0::1::::<>Area2D<><>0<>0<><>::
-puzzle_button.tscn::PackedScene::8224497996215027474::1768703339::0::1::::<><><>0<>0<><>::uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png<>uid://cwudxj6wq0sci::::res://PuzzleButton/puzzle_button.gd
-singleuse_puzzle_button.tscn::PackedScene::3094915819176138704::1768703339::0::1::::<><><>0<>0<><>::uid://dpgajsegrwr3w::::res://PuzzleButton/puzzle_button.tscn<>uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
-::res://SceneEntrance/::1768703339
-scene_entrance.gd::GDScript::4022959449180879501::1768703339::0::1::::<>Area2D<><>0<>0<><>::
-scene_entrance.tscn::PackedScene::1370086745320667249::1768703339::0::1::::<><><>0<>0<><>::uid://bxk0s332u45w8::::res://SceneEntrance/scene_entrance.gd
+::res://NPC/::1768718019
+npc.gd::GDScript::4765492867061751112::1768717435::0::1::::<>StaticBody2D<><>0<>0<><>::
+npc.tscn::PackedScene::3919018455078574905::1768718019::0::1::::<><><>0<>0<><>::uid://b85o8a16ps1pc::::res://NPC/npc.gd<>uid://wmyputbjl53k::::res://Ninja Adventure - Asset Pack/Actor/Characters/NinjaBlue2/SpriteSheet.png<>uid://de4tm86xwjp4e::::res://Ninja Adventure - Asset Pack/Ui/Dialog/DialogBoxFaceset.png<>uid://btf45uug1kxyk::::res://Ninja Adventure - Asset Pack/Actor/Characters/NinjaBlue2/Faceset.png
+::res://PuzzleButton/::1768706981
+puzzle_button.gd::GDScript/GDScript::6358507228363274460::1768703339::0::1::::<>Area2D<><>0<>0<><>::
+puzzle_button.tscn::PackedScene/PackedScene::8224497996215027474::1768703339::0::1::::<><><>0<>0<><>::uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png<>uid://cwudxj6wq0sci::::res://PuzzleButton/puzzle_button.gd
+singleuse_puzzle_button.tscn::PackedScene::3094915819176138704::1768706981::0::1::::<><><>0<>0<><>::uid://dpgajsegrwr3w::::res://PuzzleButton/puzzle_button.tscn<>uid://dlxawguwrnmku::::res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetDungeon.png
+::res://SceneEntrance/::1768706981
+scene_entrance.gd::GDScript/GDScript::4022959449180879501::1768703339::0::1::::<>Area2D<><>0<>0<><>::
+scene_entrance.tscn::PackedScene::1370086745320667249::1768706981::0::1::::<><><>0<>0<><>::uid://bxk0s332u45w8::::res://SceneEntrance/scene_entrance.gd
 ::res://SceneManager/::1768703339
-scene_manager.gd::GDScript::3907166210745310876::1768703339::0::1::::<>Node2D<><>0<>0<><>::
-scene_manager.tscn::PackedScene::7315562479026258455::1768703339::0::1::::<><><>0<>0<><>::uid://bvwwpr5bve8h1::::res://SceneManager/scene_manager.gd
+scene_manager.gd::GDScript/GDScript::3907166210745310876::1768703339::0::1::::<>Node2D<><>0<>0<><>::
+scene_manager.tscn::PackedScene/PackedScene::7315562479026258455::1768703339::0::1::::<><><>0<>0<><>::uid://bvwwpr5bve8h1::::res://SceneManager/scene_manager.gd
 ::res://Scenes/::1768703339
-::res://Scenes/Player/::1768703339
-player.gd::GDScript::2638159904461832974::1768703339::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::1255094510865541077::1768703339::0::1::::<><><>0<>0<><>::uid://bdt7dxcfrr28i::::res://Scenes/Player/player.gd<>uid://i0ef0ircayjy::::res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim/Walk.png
+::res://Scenes/Player/::1768717435
+player.gd::GDScript/GDScript::2638159904461832974::1768703339::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::1255094510865541077::1768717435::0::1::::<><><>0<>0<><>::uid://bdt7dxcfrr28i::::res://Scenes/Player/player.gd<>uid://i0ef0ircayjy::::res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim/Walk.png
