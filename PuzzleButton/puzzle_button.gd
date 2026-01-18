@@ -22,7 +22,7 @@ func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("pushable") or body is Player:
 		if bodies_on_top == 1:
 			pressed.emit()
-			print("I have been pushed")
+			#print("I have been pushed")
 			$AnimatedSprite2D.play("pressed")
 	
 
@@ -34,5 +34,5 @@ func _on_body_exited(body: Node2D) -> void:
 	if body.is_in_group("pushable") or  body is Player:
 		if bodies_on_top == 0:
 			unpressed.emit()
-			print ("i'm no longer pushed!")
+			#print ("i'm no longer pushed!")
 			$AnimatedSprite2D.play("unpressed")

@@ -58,7 +58,8 @@ func push_blocks():
 			var collision_normal: Vector2 = collision.get_normal()
 			collider_node.apply_central_force(-collision_normal * push_strength)
 		if collider_node.is_in_group("wall"):
-			print ("I'm touching a wall!")
+			#print ("I'm touching a wall!")
+			pass
 	
 
 

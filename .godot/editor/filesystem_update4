@@ -1,0 +1,9 @@
+res://GameScene/game_scene.tscn
+res://NPC/npc.gd
+res://Scenes/Player/player.tscn
+res://DungeonScene/dungeon_scene.tscn
+res://Block/block.tscn
+res://Block/ice_block.tscn
+res://NPC/npc.tscn
+res://Scenes/Player/player.gd
+res://PuzzleButton/puzzle_button.gd

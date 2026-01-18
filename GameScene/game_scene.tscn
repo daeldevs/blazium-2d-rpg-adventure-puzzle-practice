@@ -822,6 +822,7 @@ position = Vector2(-28, -33)
 
 [node name="NPC2" parent="ObstacleLayer" groups=["interactable"] instance=ExtResource("9_kd12v")]
 position = Vector2(31, -24)
+dialogue_lines = Array[String](["There's something inside the cave...", "Be careful."])
 
 [node name="Sprite2D" parent="ObstacleLayer/NPC2" index="0"]
 texture = SubResource("AtlasTexture_d2ra5")
