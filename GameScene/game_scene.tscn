@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=4 uid="uid://x3ljug53jd5e"]
+[gd_scene load_steps=21 format=4 uid="uid://x3ljug53jd5e"]
 
 [ext_resource type="PackedScene" uid="uid://r48hubsch61n" path="res://Scenes/Player/player.tscn" id="1_onf2v"]
 [ext_resource type="Texture2D" uid="uid://dnv4mf0o34qfl" path="res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetFloor.png" id="1_xougl"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://dpgajsegrwr3w" path="res://PuzzleButton/puzzle_button.tscn" id="7_ecvex"]
 [ext_resource type="Texture2D" uid="uid://bjx7dn402em8w" path="res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/Faceset.png" id="8_isyfi"]
 [ext_resource type="PackedScene" uid="uid://bv3nwqs4cwbu4" path="res://NPC/npc.tscn" id="9_kd12v"]
+[ext_resource type="PackedScene" uid="uid://dxfgn7tnhqmy3" path="res://Switch/switch.tscn" id="12_isyfi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ynty"]
 texture = ExtResource("1_xougl")
@@ -842,6 +843,9 @@ text = "Watch out for the cave...there's something."
 [node name="NameLabel" parent="ObstacleLayer/NPC2/CanvasLayer" index="2"]
 text = "Caveman"
 
+[node name="Switch" parent="ObstacleLayer" instance=ExtResource("12_isyfi")]
+position = Vector2(-47, 14)
+
 [node name="LockedDoor" parent="." instance=ExtResource("6_oat8o")]
 position = Vector2(91, -13)
 
@@ -874,5 +878,7 @@ shape = SubResource("RectangleShape2D_kd12v")
 
 [connection signal="pressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_pressed"]
 [connection signal="unpressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_unpressed"]
+[connection signal="switch_activated" from="ObstacleLayer/Switch" to="ObstacleLayer/Switch" method="_on_switch_activated"]
+[connection signal="switch_deactivated" from="ObstacleLayer/Switch" to="ObstacleLayer/Switch" method="_on_switch_deactivated"]
 
 [editable path="ObstacleLayer/NPC2"]
