@@ -11,3 +11,4 @@ res://PuzzleButton/singleuse_puzzle_button.tscn
 res://NPC/npc.tscn
 res://Switch/switch.tscn
 res://Switch/switch.gd
+res://DungeonScene/secret_wall_layer.gd

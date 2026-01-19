@@ -878,7 +878,5 @@ shape = SubResource("RectangleShape2D_kd12v")
 
 [connection signal="pressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_pressed"]
 [connection signal="unpressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_unpressed"]
-[connection signal="switch_activated" from="ObstacleLayer/Switch" to="ObstacleLayer/Switch" method="_on_switch_activated"]
-[connection signal="switch_deactivated" from="ObstacleLayer/Switch" to="ObstacleLayer/Switch" method="_on_switch_deactivated"]
 
 [editable path="ObstacleLayer/NPC2"]
