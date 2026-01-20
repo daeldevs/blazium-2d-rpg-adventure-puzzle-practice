@@ -856,10 +856,12 @@ tile_map_data = PackedByteArray("AAAFAP//AAARAA0AAAAFAP7/AAAMAA0AAAAFAP3/AAARAA4
 tile_set = SubResource("TileSet_5uxo0")
 
 [node name="TreasureChest2" parent="." instance=ExtResource("13_klfx3")]
-position = Vector2(2, -134)
+position = Vector2(-114, -14)
+chest_name = "chest3"
 
 [node name="TreasureChest3" parent="." instance=ExtResource("13_klfx3")]
-position = Vector2(212, -138)
+position = Vector2(-78, -14)
+chest_name = "chest2"
 
 [node name="SecretWallLayer" type="TileMapLayer" parent="." groups=["wall"]]
 tile_map_data = PackedByteArray("AAAAAPz/AAADAAYAAAD///z/AAADAAYAAAD+//z/AAADAAYAAAD8//r/AAABAAgAAAD8//n/AAADAAUAAAD8//f/AAADAAUAAAD8//b/AAADAAUAAAD+//r/AAADAAUAAAD+//v/AAADAAUAAAD///b/AAADAAUAAAD+//b/AAADAAUAAAD9//b/AAADAAUAAAD9//f/AAADAAUAAAD+//f/AAADAAUAAAD///f/AAADAAUAAAD///j/AAADAAUAAAD+//j/AAADAAUAAAD8//j/AAAEAAUAAAD9//j/AAAEAAUAAAD9//n/AAAEAAUAAAD+//n/AAAEAAUAAAD///n/AAAEAAUAAAD///r/AAAEAAUAAAD///v/AAAEAAUAAAAAAPv/AAAEAAUAAAAAAPr/AAAEAAUAAAAAAPn/AAAEAAUAAAAAAPj/AAAEAAUAAAAAAPf/AAAEAAUAAAAAAPb/AAAEAAUAAAABAPb/AAAEAAUAAAABAPf/AAAEAAUAAAABAPj/AAAEAAUAAAABAPn/AAAEAAUAAAACAPn/AAAEAAUAAAACAPj/AAAEAAUAAAADAPj/AAAEAAUAAAADAPf/AAAEAAUAAAACAPf/AAAEAAUAAAACAPb/AAAEAAUAAAADAPb/AAAEAAUAAAADAPn/AAAEAAUAAAA=")
@@ -922,7 +924,8 @@ position = Vector2(27, -44)
 position = Vector2(49, -44)
 
 [node name="TreasureChest" parent="." instance=ExtResource("13_klfx3")]
-position = Vector2(-133, -190)
+position = Vector2(-42, -12)
+chest_name = "chest1"
 
 [connection signal="pressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_pressed"]
 [connection signal="unpressed" from="PuzzleButton" to="LockedDoor" method="_on_puzzle_button_unpressed"]

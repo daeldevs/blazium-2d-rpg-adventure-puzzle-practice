@@ -1,6 +1,6 @@
-res://TreasureChest/treasure_chest.tscn
-res://TreasureChest/treasure_chest.gd
 res://DungeonScene/dungeon_scene.tscn
+res://SceneManager/scene_manager.gd
+res://TreasureChest/treasure_chest.gd
 res://Scenes/Player/player.tscn
 res://GameScene/game_scene.tscn
 res://SceneEntrance/scene_entrance.tscn
@@ -9,3 +9,4 @@ res://Block/ice_block.tscn
 res://NPC/npc.tscn
 res://Switch/switch.tscn
 res://Switch/switch_puzzle_manager.tscn
+res://TreasureChest/treasure_chest.tscn
