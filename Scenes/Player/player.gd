@@ -32,22 +32,22 @@ func move_player():
 	if velocity.x > 0:
 		#print("the player is moving right")
 		$AnimatedSprite2D.play("move_right")
-		$Area2D.position = Vector2(5,-2)
+		$InteractArea2D.position = Vector2(5,-2)
 		
 		
 	elif velocity.x < 0:
 		#print ("the player is moving left")
 		$AnimatedSprite2D.play("move_left")
-		$Area2D.position = Vector2(-5,2)
+		$InteractArea2D.position = Vector2(-5,2)
 	elif velocity.y > 0:
 		#print ("the player is moving down")
 		$AnimatedSprite2D.play("move_down")
-		$Area2D.position = Vector2(0,8)
+		$InteractArea2D.position = Vector2(0,8)
 		
 	elif velocity.y < 0:
 		#print ("the player is moving up")
 		$AnimatedSprite2D.play("move_up")
-		$Area2D.position = Vector2(0,-4)
+		$InteractArea2D.position = Vector2(0,-4)
 	
 	else:
 		#print("the player isn't moving.")
@@ -78,3 +78,15 @@ func _on_area_2d_body_entered(body):
 func _on_area_2d_body_exited(body):
 	if body.is_in_group("interactable"):
 		body.can_interact = false
+
+
+func _on_hitbox_area_2d_body_entered(body: Node2D) -> void:
+	SceneManager.player_hp -= 1
+	print(SceneManager.player_hp)
+	if SceneManager.player_hp <= 0:
+		die()
+	
+	
+func die():
+	SceneManager.player_hp = 3
+	get_tree().call_deferred("reload_current_scene")

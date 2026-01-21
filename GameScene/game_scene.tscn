@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://dpgajsegrwr3w" path="res://PuzzleButton/puzzle_button.tscn" id="7_ecvex"]
 [ext_resource type="Texture2D" uid="uid://bjx7dn402em8w" path="res://Ninja Adventure - Asset Pack/Actor/Characters/Caveman/Faceset.png" id="8_isyfi"]
 [ext_resource type="PackedScene" uid="uid://bv3nwqs4cwbu4" path="res://NPC/npc.tscn" id="9_kd12v"]
-[ext_resource type="PackedScene" uid="uid://dxfgn7tnhqmy3" path="res://Switch/switch.tscn" id="12_isyfi"]
+[ext_resource type="PackedScene" uid="uid://bv0pumqjbyup7" path="res://Enemies/slime_enemy.tscn" id="12_isyfi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ynty"]
 texture = ExtResource("1_xougl")
@@ -843,8 +843,8 @@ text = "Watch out for the cave...there's something."
 [node name="NameLabel" parent="ObstacleLayer/NPC2/CanvasLayer" index="2"]
 text = "Caveman"
 
-[node name="Switch" parent="ObstacleLayer" instance=ExtResource("12_isyfi")]
-position = Vector2(-47, 14)
+[node name="SlimeEnemy" parent="ObstacleLayer" instance=ExtResource("12_isyfi")]
+position = Vector2(-68, 2)
 
 [node name="LockedDoor" parent="." instance=ExtResource("6_oat8o")]
 position = Vector2(91, -13)
