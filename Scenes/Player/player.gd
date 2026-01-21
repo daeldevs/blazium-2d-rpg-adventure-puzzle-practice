@@ -8,8 +8,10 @@ class_name Player
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	update_treasure_label()
+	update_hp_bar()
 	if SceneManager.player_spawn_position != Vector2(0,0):
 		position = SceneManager.player_spawn_position
+	print()
 	
 	
 
@@ -82,7 +84,7 @@ func _on_area_2d_body_exited(body):
 
 func _on_hitbox_area_2d_body_entered(body: Node2D) -> void:
 	SceneManager.player_hp -= 1
-	print(SceneManager.player_hp)
+	update_hp_bar()
 	if SceneManager.player_hp <= 0:
 		die()
 	
@@ -90,3 +92,14 @@ func _on_hitbox_area_2d_body_entered(body: Node2D) -> void:
 func die():
 	SceneManager.player_hp = 3
 	get_tree().call_deferred("reload_current_scene")
+	
+	
+func update_hp_bar():
+	if SceneManager.player_hp >= 3:
+		%HPBar.play("3_hp")
+	elif SceneManager.player_hp == 2:
+		%HPBar.play("2_hp")
+	elif SceneManager.player_hp == 1:
+		%HPBar.play("1_hp")
+	else:
+		%HPBar.play("0_hp")
