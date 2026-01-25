@@ -1,12 +1,13 @@
-AnimatedSprite2D
+AnimationPlayer
+Timer
 CollisionShape2D
 Area2D
+AnimatedSprite2D
 CharacterBody2D
 TextureRect
 Label
 Panel
 CanvasLayer
-Timer
 Sprite2D
 StaticBody2D
 Marker2D

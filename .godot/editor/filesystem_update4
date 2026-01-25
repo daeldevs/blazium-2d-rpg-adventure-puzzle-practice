@@ -1,6 +1,5 @@
-res://SceneManager/scene_manager.gd
-res://Scenes/Player/player.gd
 res://Scenes/Player/player.tscn
+res://Scenes/Player/player.gd
 res://GameScene/game_scene.tscn
 res://DungeonScene/dungeon_scene.tscn
 res://Block/block.tscn
