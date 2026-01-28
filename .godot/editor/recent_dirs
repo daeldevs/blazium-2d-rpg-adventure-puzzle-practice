@@ -1,10 +1,9 @@
-res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim
-res://Ninja Adventure - Asset Pack/Ui/LifeReceptacle
-res://Enemies
 res://Ninja Adventure - Asset Pack/Actor/Monsters/Slime3
-res://
-res://NPC
+res://TreasureChest
+res://Ninja Adventure - Asset Pack/Items/Treasure
+res://Switch
 res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets
+res://NPC
 res://PuzzleButton
 res://Block
 res://LockedDoor
@@ -12,5 +11,6 @@ res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior
 res://SceneManager
 res://SceneEntrance
 res://DungeonScene
+res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim
 res://GameScene
 res://Scenes/Player

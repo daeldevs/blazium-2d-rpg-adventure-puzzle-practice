@@ -1,9 +1,14 @@
-res://Scenes/Player/player.tscn
+res://SceneManager/scene_manager.gd
 res://Scenes/Player/player.gd
+res://Scenes/Player/player.tscn
 res://GameScene/game_scene.tscn
 res://DungeonScene/dungeon_scene.tscn
+res://SceneEntrance/scene_entrance.tscn
 res://Block/block.tscn
 res://Block/ice_block.tscn
 res://NPC/npc.tscn
+res://Switch/switch.tscn
+res://Switch/switch_puzzle_manager.tscn
+res://TreasureChest/treasure_chest.tscn
 res://Enemies/slime_enemy.tscn
-res://SceneManager/scene_manager.tscn
+res://Enemies/slime_enemy.gd

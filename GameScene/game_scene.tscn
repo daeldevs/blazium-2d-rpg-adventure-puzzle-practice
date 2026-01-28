@@ -844,7 +844,7 @@ text = "Watch out for the cave...there's something."
 text = "Caveman"
 
 [node name="SlimeEnemy" parent="ObstacleLayer" instance=ExtResource("12_isyfi")]
-position = Vector2(-68, 2)
+position = Vector2(-97, 2)
 
 [node name="LockedDoor" parent="." instance=ExtResource("6_oat8o")]
 position = Vector2(91, -13)
