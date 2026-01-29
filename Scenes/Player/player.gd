@@ -8,6 +8,8 @@ class_name Player
 
 var is_attacking: bool = false
 
+var can_interact:bool = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	update_treasure_label()
@@ -30,7 +32,7 @@ func _physics_process(delta):
 	
 	update_treasure_label()
 	
-	if Input.is_action_just_pressed("interact"):
+	if Input.is_action_just_pressed("interact") and not can_interact:
 		attack()
 		
 	
@@ -84,11 +86,13 @@ func update_treasure_label():
 
 func _on_area_2d_body_entered(body):
 	if body.is_in_group("interactable"):
+		can_interact = true
 		body.can_interact = true
 
 
 func _on_area_2d_body_exited(body):
 	if body.is_in_group("interactable"):
+		can_interact = false
 		body.can_interact = false
 
 
