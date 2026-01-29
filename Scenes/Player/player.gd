@@ -21,7 +21,9 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _physics_process(delta: float) -> void:
+func _physics_process(delta):
+	if SceneManager.player_hp <= 0:
+		return
 	if not is_attacking:
 		move_player()
 	push_blocks()
@@ -103,6 +105,13 @@ func _on_hitbox_area_2d_body_entered(body: Node2D) -> void:
 	velocity += knockback_direction * knockback_strength
 	
 func die():
+	$AnimatedSprite2D.play("death")
+	
+	if $DeathTimer.is_stopped():
+		$DeathTimer.start()
+	
+	
+func _on_death_timer_timeout() -> void:
 	SceneManager.player_hp = 3
 	get_tree().call_deferred("reload_current_scene")
 	
@@ -118,6 +127,9 @@ func update_hp_bar():
 		%HPBar.play("0_hp")
 
 func attack():
+	if not $AttackDurationTimer.is_stopped():
+		return
+	
 	$Sword.visible = true
 	%SwordArea2D.monitoring = true
 	$AttackDurationTimer.start()

@@ -1,6 +1,5 @@
 res://Enemies/slime_enemy.tscn
 res://Scenes/Player/player.gd
-res://Enemies/slime_enemy.gd
 res://Scenes/Player/player.tscn
 res://GameScene/game_scene.tscn
 res://DungeonScene/dungeon_scene.tscn
