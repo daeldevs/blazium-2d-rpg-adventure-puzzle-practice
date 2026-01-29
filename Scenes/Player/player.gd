@@ -4,6 +4,7 @@ class_name Player
 
 @export var move_speed: float = 100
 @export var push_strength: float = 100
+@export var acceleration: float = 10
 
 var is_attacking: bool = false
 
@@ -37,7 +38,7 @@ func _physics_process(delta: float) -> void:
 func move_player():
 	var move_vector: Vector2 = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	
-	velocity = move_vector * move_speed 
+	velocity = velocity.move_toward(move_vector * move_speed, acceleration)
 	if velocity.x > 0:
 		#print("the player is moving right")
 		$AnimatedSprite2D.play("move_right")
@@ -95,6 +96,11 @@ func _on_hitbox_area_2d_body_entered(body: Node2D) -> void:
 	if SceneManager.player_hp <= 0:
 		die()
 	
+	var distance_to_player: Vector2 = global_position - body.global_position
+	var knockback_direction: Vector2 = distance_to_player.normalized()
+	
+	var knockback_strength: float = 200
+	velocity += knockback_direction * knockback_strength
 	
 func die():
 	SceneManager.player_hp = 3
@@ -133,9 +139,15 @@ func attack():
 		$AnimationPlayer.play("attack_down")
 		
 	
-func _on_sword_area_2d_body_entered(body: Node2D) -> void:
-	body.queue_free()
-
+func _on_sword_area_2d_body_entered(body):
+	var distance_to_enemy:Vector2 = body.global_position - global_position
+	var knockback_direction: Vector2 = distance_to_enemy.normalized()
+	var knockback_strength:float = 150
+	
+	body.velocity += knockback_direction * knockback_strength
+	body.HP -= 1
+	if body.HP <= 0:
+		body.queue_free()
 
 func _on_attack_duration_timer_timeout() -> void:
 	$Sword.visible = false

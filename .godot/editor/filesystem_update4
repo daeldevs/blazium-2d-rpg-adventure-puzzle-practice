@@ -1,5 +1,6 @@
-res://SceneManager/scene_manager.gd
+res://Enemies/slime_enemy.tscn
 res://Scenes/Player/player.gd
+res://Enemies/slime_enemy.gd
 res://Scenes/Player/player.tscn
 res://GameScene/game_scene.tscn
 res://DungeonScene/dungeon_scene.tscn
@@ -10,5 +11,3 @@ res://NPC/npc.tscn
 res://Switch/switch.tscn
 res://Switch/switch_puzzle_manager.tscn
 res://TreasureChest/treasure_chest.tscn
-res://Enemies/slime_enemy.tscn
-res://Enemies/slime_enemy.gd
