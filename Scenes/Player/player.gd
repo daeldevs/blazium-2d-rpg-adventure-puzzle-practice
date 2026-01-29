@@ -104,6 +104,14 @@ func _on_hitbox_area_2d_body_entered(body: Node2D) -> void:
 	var knockback_strength: float = 200
 	velocity += knockback_direction * knockback_strength
 	
+	var flash_white_color: Color = Color(50, 50, 50 )
+	modulate = flash_white_color
+	
+	await get_tree().create_timer(0.2).timeout
+	
+	var original_color: Color = Color(1, 1, 1)
+	modulate = original_color
+	
 func die():
 	$AnimatedSprite2D.play("death")
 	
@@ -160,6 +168,15 @@ func _on_sword_area_2d_body_entered(body):
 	body.HP -= 1
 	if body.HP <= 0:
 		body.queue_free()
+	
+	var flash_red_color:Color = Color(10, 0, 0)
+	body.modulate = flash_red_color
+	
+	await get_tree().create_timer(0.2).timeout
+	
+	if is_instance_valid(body):
+		var original_color: Color = Color(1, 1, 1)
+		body.modulate = original_color
 
 func _on_attack_duration_timer_timeout() -> void:
 	$Sword.visible = false
