@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="ninja_adventure_gamedevtv_tutorial"
-run/main_scene="uid://x3ljug53jd5e"
+run/main_scene="uid://lrejilitrfy8"
 config/features=PackedStringArray("4.3.2", "Mobile")
 config/icon="res://icon.svg"
 

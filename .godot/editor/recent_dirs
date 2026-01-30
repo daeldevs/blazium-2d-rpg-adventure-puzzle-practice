@@ -1,3 +1,4 @@
+res://DungeonScene
 res://Ninja Adventure - Asset Pack/Actor/Characters/Boy
 res://Ninja Adventure - Asset Pack/Actor/Monsters/Slime3
 res://TreasureChest
@@ -11,7 +12,6 @@ res://LockedDoor
 res://Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior
 res://SceneManager
 res://SceneEntrance
-res://DungeonScene
 res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SeparateAnim
 res://GameScene
 res://Scenes/Player
